@@ -7,6 +7,10 @@ int main(int argc, char const *argv[])
     {
         for(int j = 0; j <= 10; j++){
             printf("%d X %d = %d\n", i, j, i*j);
+            if (j == 10){
+                printf("\n");
+            }
+            
         }
     }
     
